@@ -1,0 +1,315 @@
+{
+    "list": {
+        "1": [
+            null,
+            ""
+        ],
+        "2": [
+            null,
+            "wocaniawa"
+        ],
+        "3": [
+            null
+        ],
+        "16": [
+            null,
+            ""
+        ]
+    },
+    "type": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "16": ""
+    },
+    "data": {
+        "1": {
+            "compAutoOrderLimitHeight": 0,
+            "id": 1,
+            "blockList": [
+                {
+                    "name": "基础设置",
+                    "blockAttrs": [
+                        {
+                            "attr": {
+                                "id": "72158693192_0.3086011618564033",
+                                "varName": "对话框类型",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 2,
+                                    "compParam": {
+                                        "items": "提示框,确认框",
+                                        "showIndex": true
+                                    }
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": false,
+                                "autoTitleWidth": true,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 0,
+                            "x": 0,
+                            "width": 200,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "72158794954_0.03731430466083041",
+                                "varName": "消息文本",
+                                "varType": 1,
+                                "compData": {
+                                    "compType": 9,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": false,
+                                "autoTitleWidth": true,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 0,
+                            "x": 0,
+                            "width": 200,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "72158831993_0.07294551475524402",
+                                "varName": "确认按钮文本",
+                                "varType": 1,
+                                "compData": {
+                                    "compType": 9,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": false,
+                                "autoTitleWidth": true,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 0,
+                            "x": 0,
+                            "width": 200,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "72158856718_0.5892676776199011",
+                                "varName": "当确认时执行",
+                                "varType": 1,
+                                "compData": {
+                                    "compType": 35,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": false,
+                                "autoTitleWidth": true,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [],
+                            "y": 0,
+                            "x": 0,
+                            "width": 200,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "72158943432_0.7714225356703619",
+                                "varName": "取消按钮文本",
+                                "varType": 0,
+                                "compData": {
+                                    "compType": 0,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": false,
+                                "autoTitleWidth": true,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "72158693192_0.3086011618564033",
+                                    "value": 1,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 0,
+                            "x": 0,
+                            "width": 200,
+                            "height": 32
+                        },
+                        {
+                            "attr": {
+                                "id": "72159001368_0.8469252043613793",
+                                "varName": "当取消时执行",
+                                "varType": 1,
+                                "compData": {
+                                    "compType": 35,
+                                    "compParam": {}
+                                },
+                                "defaultValue": "",
+                                "hideMode": false,
+                                "useCommand": false,
+                                "onlyPointTo": false,
+                                "moduleID": 1,
+                                "dataStructureID": 1,
+                                "arrayMode": false,
+                                "arrayLength": 100,
+                                "arrayAllowDelete": false,
+                                "arrayAllowSwap": false,
+                                "arrayAllowUpdate": false,
+                                "accessMode": 1,
+                                "syncMode": 0,
+                                "attrTips": "",
+                                "alias": "",
+                                "onlyConfig": false,
+                                "preview": false,
+                                "autoTitleWidth": true,
+                                "titleWidth": 100,
+                                "eyeShow": true,
+                                "lockBlock": false
+                            },
+                            "attrConditions": [
+                                {
+                                    "attrID": "72158693192_0.3086011618564033",
+                                    "value": 1,
+                                    "isExpression": false,
+                                    "jsCode": null,
+                                    "tsCode": null,
+                                    "codeName": null
+                                }
+                            ],
+                            "y": 0,
+                            "x": 0,
+                            "width": 200,
+                            "height": 32
+                        }
+                    ],
+                    "blockCondition": [],
+                    "blockHeight": 300,
+                    "autoOrder": true,
+                    "cmdColor": "#FFFFFF"
+                }
+            ],
+            "isCustomPhraseDesc": false,
+            "compAutoOrder": true
+        },
+        "1001": {
+            "compAutoOrderLimitHeight": 0,
+            "id": 1001,
+            "blockList": [
+                {
+                    "name": "掉落道具",
+                    "blockAttrs": [],
+                    "blockCondition": [],
+                    "blockHeight": 96,
+                    "autoOrder": true
+                }
+            ]
+        },
+        "15001": {
+            "compAutoOrderLimitHeight": 0,
+            "id": 15001,
+            "blockList": [
+                {
+                    "name": "未命名块",
+                    "blockAttrs": [],
+                    "blockCondition": [],
+                    "blockHeight": 300,
+                    "autoOrder": true,
+                    "hideBlockTitle": false,
+                    "cmdColor": "#FFFFFF"
+                }
+            ]
+        }
+    }
+}
