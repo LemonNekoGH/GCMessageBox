@@ -202,7 +202,13 @@
         },
         {
             "typeName": "插件指令",
-            "commandList": []
+            "commandList": [
+                [
+                    10001,
+                    "显示对话框",
+                    false
+                ]
+            ]
         }
     ]
 }

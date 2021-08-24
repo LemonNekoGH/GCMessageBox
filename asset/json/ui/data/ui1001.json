@@ -7,9 +7,9 @@
                 "type": "UIString",
                 "name": "标题",
                 "x": 380,
-                "y": 295,
+                "y": 275,
                 "width": 440,
-                "height": 110,
+                "height": 150,
                 "opacity": 1,
                 "rotation": 0,
                 "show": true,
@@ -61,7 +61,9 @@
                         ],
                         "mouseEventEnabledInEditor": true,
                         "showOnEditor": true,
-                        "hasCommand": [],
+                        "hasCommand": [
+                            true
+                        ],
                         "isOpen": true,
                         "label": "显示确认框",
                         "image1": "asset/image/picture/control/btn_normal.png",
@@ -89,7 +91,7 @@
                         "id": "72157885911_0.4593516474727135",
                         "condition": [],
                         "type": "UIButton",
-                        "name": "显示对话框按钮",
+                        "name": "显示提示框按钮",
                         "x": 0,
                         "y": 60,
                         "width": 210,
@@ -105,7 +107,9 @@
                         ],
                         "mouseEventEnabledInEditor": true,
                         "showOnEditor": true,
-                        "hasCommand": [],
+                        "hasCommand": [
+                            true
+                        ],
                         "isOpen": true,
                         "label": "显示提示框",
                         "image1": "asset/image/picture/control/btn_normal.png",
@@ -128,6 +132,189 @@
                         "textDy": 0,
                         "textStroke": 0,
                         "textStrokeColor": "#000000"
+                    },
+                    {
+                        "id": "72233499505_0.6851558885325004",
+                        "condition": [
+                            {
+                                "type": 0,
+                                "varID": 1,
+                                "compare": 1,
+                                "value": 1
+                            },
+                            {
+                                "type": 0,
+                                "varID": 2,
+                                "compare": 1,
+                                "value": 0
+                            },
+                            {
+                                "type": 0,
+                                "varID": 3,
+                                "compare": 1,
+                                "value": 1
+                            }
+                        ],
+                        "type": "UIString",
+                        "name": "当确认框确认时出现",
+                        "x": 0,
+                        "y": 130,
+                        "width": 440,
+                        "height": 20,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "你在上一个确认框中点击了确认按钮",
+                        "fontSize": 20,
+                        "color": "#ff0000",
+                        "bold": true,
+                        "italic": false,
+                        "align": 1,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "宋体",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 0,
+                        "strokeColor": "#000000"
+                    },
+                    {
+                        "id": "72233659296_0.7882322943078581",
+                        "condition": [
+                            {
+                                "type": 0,
+                                "varID": 2,
+                                "compare": 1,
+                                "value": 0
+                            },
+                            {
+                                "type": 0,
+                                "varID": 1,
+                                "compare": 1,
+                                "value": 0
+                            },
+                            {
+                                "type": 0,
+                                "varID": 3,
+                                "compare": 1,
+                                "value": 1
+                            }
+                        ],
+                        "type": "UIString",
+                        "name": "当确认框取消时出现",
+                        "x": 0,
+                        "y": 130,
+                        "width": 440,
+                        "height": 20,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "你在上一个确认框中点击了取消按钮",
+                        "fontSize": 20,
+                        "color": "#00ff00",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": null,
+                        "align": 1,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "宋体",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 0,
+                        "strokeColor": "#000000",
+                        "onChangeFragEvent": null
+                    },
+                    {
+                        "id": "72233684634_0.8361045535783951",
+                        "condition": [
+                            {
+                                "type": 0,
+                                "varID": 1,
+                                "compare": 1,
+                                "value": 1
+                            },
+                            {
+                                "type": 0,
+                                "varID": 2,
+                                "compare": 1,
+                                "value": 1
+                            },
+                            {
+                                "type": 0,
+                                "varID": 3,
+                                "compare": 1,
+                                "value": 1
+                            }
+                        ],
+                        "type": "UIString",
+                        "name": "当提示框确认时出现",
+                        "x": 0,
+                        "y": 130,
+                        "width": 440,
+                        "height": 20,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "你在上一个提示框中点击了确认按钮",
+                        "fontSize": 20,
+                        "color": "#0000ff",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": null,
+                        "align": 1,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "宋体",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 0,
+                        "strokeColor": "#000000",
+                        "onChangeFragEvent": null
                     }
                 ]
             }
