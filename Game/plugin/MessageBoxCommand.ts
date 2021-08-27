@@ -2,6 +2,8 @@
  * Created by LemonNekoGC on 2021-08-23 17:35:09.
  */
 module CommandExecute {
+    const PLUGIN_GUI_MESSAGE_BOX: number = 1
+
     export interface IMessageBtnOptions {
         x: number
         y: number
@@ -35,14 +37,14 @@ module CommandExecute {
     function createOnBtnClickFn(): (clickToClose: boolean, onClick: string | Callback) => void {
         return (clickToClose: boolean, onClick: string | Callback) => {
             // 如果用可视化事件调用时执行事件片段
-            // 否则执行回到方法
+            // 否则执行回调方法
             if (typeof onClick === 'string') {
                 CommandPage.startTriggerFragmentEvent(onClick as string, Game.player.sceneObject, Game.player.sceneObject)
             } else {
                 (onClick as Callback).run()
             }
             if (clickToClose) {
-                GameUI.dispose(1)
+                GameUI.dispose(PLUGIN_GUI_MESSAGE_BOX)
             }
         }
     }
@@ -75,14 +77,14 @@ module CommandExecute {
     export function showMessageBox(options: IMessageBoxOptions): void {
         console.log(options)
 
-        let msgBox = GameUI.get(1) as GUI_1
+        let msgBox = GameUI.get(PLUGIN_GUI_MESSAGE_BOX) as GUI_1
         // 当前有对话框正在显示，返回
         if (msgBox) {
             return
         }
         // 没有对话框正在显示，继续
-        GameUI.show(1)
-        msgBox = GameUI.get(1) as GUI_1
+        GameUI.show(PLUGIN_GUI_MESSAGE_BOX)
+        msgBox = GameUI.get(PLUGIN_GUI_MESSAGE_BOX) as GUI_1
         // 设置对话框本体
         msgBox.x = options.x
         msgBox.y = options.y

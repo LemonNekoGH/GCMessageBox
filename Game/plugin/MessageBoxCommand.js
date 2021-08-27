@@ -1,5 +1,6 @@
 var CommandExecute;
 (function (CommandExecute) {
+    var PLUGIN_GUI_MESSAGE_BOX = 1;
     function createOnBtnClickFn() {
         return function (clickToClose, onClick) {
             if (typeof onClick === 'string') {
@@ -9,7 +10,7 @@ var CommandExecute;
                 onClick.run();
             }
             if (clickToClose) {
-                GameUI.dispose(1);
+                GameUI.dispose(PLUGIN_GUI_MESSAGE_BOX);
             }
         };
     }
@@ -29,12 +30,12 @@ var CommandExecute;
     }
     function showMessageBox(options) {
         console.log(options);
-        var msgBox = GameUI.get(1);
+        var msgBox = GameUI.get(PLUGIN_GUI_MESSAGE_BOX);
         if (msgBox) {
             return;
         }
-        GameUI.show(1);
-        msgBox = GameUI.get(1);
+        GameUI.show(PLUGIN_GUI_MESSAGE_BOX);
+        msgBox = GameUI.get(PLUGIN_GUI_MESSAGE_BOX);
         msgBox.x = options.x;
         msgBox.y = options.y;
         msgBox.消息背景.height = options.height;
